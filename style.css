@@ -237,7 +237,6 @@ ul{
     background-color: #ffc100;
     display: flex;
     text-align: center;
-    margin-bottom: 50px;
     
 }
 .chiffre{
@@ -467,10 +466,10 @@ ul{
     }*/
     
     header{
-        width: 350px;
+        width: 300px;
     }
     .nav-bar{
-        width: 350px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         /* margin-bottom: 100px; */
@@ -544,10 +543,10 @@ ul{
         margin: 0;
     }
     .performance{
-        width: 100%;
+        width: 300px;
     }
     .retention{
-        width: 100%;
+        width: 300px;
     }
     .mark-oth{
         display: flex;
@@ -575,7 +574,7 @@ ul{
         width: 100%;
     }
     .vert{
-        width: 350px;
+        width: 300px;
     }
     .img-noir{
         width: 300px;
@@ -617,10 +616,10 @@ ul{
     .free{
         margin-right: 0;
         margin-left: 0;
-        width: 350px;
+        width: 300px;
     }
     .jaune{
-        width: 100%;
+        width: 300px;
     }
     .h1-left{
         font-size: 15px;
@@ -635,6 +634,8 @@ ul{
     .all-sec-4{ 
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        justify-items: center;
         margin-bottom: 200px;
         margin-top: 200px;
      }
@@ -642,18 +643,16 @@ ul{
         width: 300px;
         margin-bottom: 50px;
      }
-     .img-rec{
-        width: 0px;
+     .img-rec img{
+        width: 100px;
         display: flex;
         justify-content: center;
         justify-items: center;
      }
-     .rec{
-        width: 0;
-        margin-bottom: 25px;
-     }
+     
      .projet{
-        font-size: 15px;
+        font-size: 10px;
+        text-align: center;
      }
      .h1-sec4{
         font-size: 10px;
@@ -662,7 +661,7 @@ ul{
         width: 50%;
      }
     .green{ 
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         margin-top: 300px;
@@ -680,14 +679,14 @@ ul{
         margin-top: -15px;
     }
     .black{
-        width: 100%;
+        width: 80%;
     }
     .h1-black{
         margin-top: 21px;
         font-size: 13px;
     }
      .sec-6{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         margin-top: 100px;
@@ -728,7 +727,7 @@ ul{
         margin-left: 0px;
     }
     .sec-7{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -739,7 +738,7 @@ ul{
         margin-left: 20%;
     }
     .all-footer{
-        width: 100%;
+        width: 80%;
         gap: 2px;
     }
     .ill{
