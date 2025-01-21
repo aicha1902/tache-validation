@@ -1,0 +1,770 @@
+/*body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px;
+}*/
+
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+header .nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+}
+nav li{
+    
+    height:100%;
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.home{
+    color: #11b979;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+
+}
+ul{
+    display: flex;
+    text-wrap: nowrap;
+    gap: 20px;
+    
+}
+.get button{
+    margin-top: 15px;
+     width: 130px;
+     padding: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      background-color: white;
+      border: 2px solid #11b979;
+    
+}
+/* .start{ 
+    display: flex;
+    width: 130px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+     background-color: white;
+     border: 2px solid #11b979;
+} */
+.section1{
+    
+    /* height: 500px; */
+    margin-top: 100px;
+    
+}
+.all-sect-1{
+         width: 100%;
+         /* height: 100%; */
+         display: flex;
+         
+}
+.gauche h1{
+ font-size: 50px;
+}
+.tofs{
+     display: flex;
+     flex-direction: row;
+}
+.tof1{
+    width: 400px;
+    height: 400px;
+   margin-top: 100px;
+}
+.tof1 img{
+    width: 100%;
+    height: 100%;
+}
+.tof2{
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: -170px;
+}
+.tof2 img{
+    width: 100%;
+    height: 100%;
+}
+.tof3{
+    width: 400px;
+    height: 400px;
+   margin-top: 300px;
+   margin-left: -460px;
+}
+.tof3 img{
+    width: 100%;
+    height: 100%;
+}
+.blanc{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    display: flex;
+    
+}
+.blanc .elevate{
+    width: 30%;
+}
+.quote{
+    color: white;
+    background-color: green;
+}
+.blanc .icons{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.blanc .icons .perf-reten{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 80px; */
+}
+.performance{
+     width: 30%;    
+    border: 1px solid #000000;
+    padding: 20px;
+}
+.retention{
+    width: 30%;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+.blanc .icons .mark-oth{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+ /* gap: 40px; */
+}
+.market{
+    width: 30%;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+.other{
+    width: 30%;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+.bas-blanc{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.vert{
+    height: 200px;
+    background-color: #11b979;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.noir{
+    
+    height: 50px;
+    background-color: black;
+}
+.img-noir{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    width: 50px;
+    height: 50px;
+}
+.couteau{
+    width: 50px;
+    height: 50px;
+}
+.fashion{
+    width: 50px;
+    height: 50px;
+}
+.real{
+    width: 50px;
+    height: 50px;
+}
+.tout{
+    
+    height: 500px;
+}
+.free{
+    margin-top: 50px;
+    /* margin-right: 50px; */
+    /* margin-left: 50px; */
+    width: 95%;
+    height: 300px;
+    text-align: center;
+    background-image: url(photos/free.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+.free .h1-free{
+       padding-top: 90px;
+       font-size: 50px;
+       color: white;
+}
+.button-free{
+    font-size: 20px;
+    background-color: #11b979;
+    color: white;
+    border: none;
+}
+.jaune{
+    /* height: 500px; */
+    background-color: #ffc100;
+    display: flex;
+    text-align: center;
+    
+}
+.chiffre{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.left{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.h1-left{
+    font-size: 60px;
+}
+.right{
+    width: 30%;
+    height: 20px;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 0px;
+    
+}
+.tof-jaune{
+    width: 100%;
+    border-radius: 5%;
+}
+.all-sec-4{
+    
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.left-sec4{
+    width: 60%;
+    margin-left: 100px;
+    
+}
+.h1-sec4{
+    font-size: 55px;
+}
+.p-sec4{
+    font-size: 30px;
+}
+.right-sec4{
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.tof-sec4{
+    width: 100%;
+    
+}
+.rec{ 
+    width: 50%;
+    margin-top: -100px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.projet{
+    text-align: center;
+    margin-left: -35%;
+    font-size: 30px;
+    color: white;
+}
+.green{
+    margin-top: 100px;
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #11b979;
+    gap: 25px;
+}
+.unsp{
+    margin-top: 50px;
+}
+.charle{
+    border-radius: 5%;
+}
+.build{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.h1-sec5{
+    font-size: 40px;
+}
+.all-tofs{
+    display: flex;
+}
+.pic1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pic2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pic3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pic4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.trait{
+    width: 1px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.btn-contact{
+    margin-top: 10px;
+
+}
+.black{
+    margin-top: -20px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.sec-6{
+    
+    height: 650px;
+    background-color: #f4f4f4;
+    margin-top: -20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.h1-sec6{
+    margin: 5%;
+    font-size: 30px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px;
+}
+.analyse{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 65px;
+}
+.ana{
+    width: 30%;
+    height: 70%;
+}
+.ana3{
+    width: 20%;
+    height: 50%;
+}
+.sec-7{
+    height: 300px;
+    margin: 50px;
+    background-image: url(photos/schule.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-sec7{
+    width: 100px;
+    height: 50px;
+    margin-top: 100px;
+    color: white;
+    background-color: #11b979;
+    border: none;
+}
+.h1-sec7{
+    color: white;
+    font-size: 40px;
+}
+.p-sec7{
+    color: white;
+    font-size: 20px;
+}
+.all-footer{
+    height: 300px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+.label{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+.log{
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.horizon{
+    width: 100%;
+    height: 1px;
+    margin-top: -50px;
+    background-color: gray;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media only screen and (max-width: 729px){
+    /* body{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }*/
+    
+    header{
+        width: 300px;
+    }
+    .nav-bar{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 100px; */
+    }
+    .liste ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .get{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .illus{ x
+        width: 40px;
+    }
+    .lis{
+        font-size: 8px;
+    }*/
+    .all-sect-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    .gauche h1{
+        font-size: 25px;
+       }
+    .p-making{
+        font-size: 10px;
+    }
+    .tofs{
+        display: flex;
+        flex-direction: column;
+    }
+    .tof2{
+    
+        margin-left: 0;
+    
+    }
+    .tof3{
+       margin-left: 0;
+       margin-top: 0;
+    }
+    .tof1{ 
+        width: 50%;
+    }
+    .tof2{
+        width: 50%;
+    }
+    .tof3{
+        width: 50%;
+    }
+    
+    .blanc{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap
+    }
+    
+    .elevate{
+        width: 100%;
+        margin: 50px;
+    }
+    .img-el img{
+        width: 250px;
+        margin: 0;
+    }
+    .performance{
+        width: 300px;
+    }
+    .retention{
+        width: 300px;
+    }
+    .mark-oth{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .market{
+        width: 100%;
+    }
+    .other{
+        width: 100%;
+    }
+    .bas-blanc{
+        width: 300px;
+    }
+    .img-1{
+        width: 100%;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+    .img-2{
+        width: 100%;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .vert{
+        width: 300px;
+    }
+    .img-noir{
+        width: 300px;
+    }
+    .para{
+        width: 20px;
+    }
+    .para-beau{
+        font-size: 10px;
+    }
+    .couteau{
+        width: 20px;
+    }
+    .para-cou{
+        font-size: 10px;
+    }
+    .fashion{
+        width: 20px;
+    }
+    .para-fashion{
+        font-size: 10px;
+    }
+    .real{
+        width: 20px;
+    }
+    .para-real{
+        font-size: 10px;
+    }
+
+
+
+
+
+    .tout{ 
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    } 
+    .free{
+        margin-right: 0;
+        margin-left: 0;
+        width: 300px;
+    }
+    .jaune{
+        width: 300px;
+    }
+    .h1-left{
+        font-size: 15px;
+    }
+    .chiffre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .all-sec-4{ 
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        margin-top: 200px;
+     }
+     .h1-sec4{
+        font-size: 10px;
+     }
+     .charle{
+        width: 50%;
+     }
+    .green{ 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .build{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .h1-sec5{
+        font-size: 15px;
+    }
+    .all-tofs{
+        margin-top: -15px;
+    }
+    .black{
+        width: 80%;
+    }
+    .h1-black{
+        margin-top: 21px;
+        font-size: 13px;
+    }
+     .sec-6{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .h1-sec6{
+        font-size: 15px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .goog{
+        width: 150px;
+    }
+    .goog img{
+        width: 100%;
+    }
+    .shop{
+        width: 150px;
+    }
+    .shop img{
+        width: 100%;
+    }
+    .amo{
+        width: 150px;
+    }
+    .amo img{
+        width: 100%;
+    }
+    .meta{
+        width: 150px;
+    }
+    .meta img{
+        width: 100%;
+    }
+    .analyse{
+        margin-top: -40px;
+        margin-left: 0px;
+    }
+    .sec-7{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .btn-sec7{
+        margin-top: -20%;
+        margin-left: 20%;
+    }
+    .all-footer{
+        width: 80%;
+        gap: 2px;
+    }
+    .ill{
+        width: 50px;
+    }
+    .foot1{
+        font-size: 10px;
+    }
+    .foot-h3{
+        font-size: 8px;
+    }
+    .foot-2{
+        font-size: 10px;
+    }
+    .foot3-h{
+        font-size: 10px;
+    }
+    .foot-3{
+        font-size: 8px;
+    }
+    .foot-4{
+        margin-top: -95px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .foot4-h3{
+        font-size: 10px;
+    }
+    .foot-p{
+        font-size: 5px;
+    }
+    .log{
+        width: 50px;
+        margin-top: 10px;
+    }
+    .horizon{
+        width: 80%;
+    }
+    .last{
+        width: 80%;
+        gap: 2px;
+    }
+    .last-p{
+        font-size: 8px;
+    }
+}
