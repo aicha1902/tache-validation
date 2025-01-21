@@ -237,6 +237,7 @@ ul{
     background-color: #ffc100;
     display: flex;
     text-align: center;
+    margin-bottom: 50px;
     
 }
 .chiffre{
@@ -466,10 +467,10 @@ ul{
     }*/
     
     header{
-        width: 300px;
+        width: 350px;
     }
     .nav-bar{
-        width: 300px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         /* margin-bottom: 100px; */
@@ -574,7 +575,7 @@ ul{
         width: 100%;
     }
     .vert{
-        width: 300px;
+        width: 350px;
     }
     .img-noir{
         width: 300px;
@@ -616,10 +617,10 @@ ul{
     .free{
         margin-right: 0;
         margin-left: 0;
-        width: 300px;
+        width: 350px;
     }
     .jaune{
-        width: 300px;
+        width: 350px;
     }
     .h1-left{
         font-size: 15px;
@@ -649,6 +650,7 @@ ul{
      }
      .rec{
         width: 0;
+        margin-bottom: 25px;
      }
      .projet{
         font-size: 15px;
