@@ -510,6 +510,7 @@ ul{
     .tof2{
     
         margin-left: 0;
+        margin-top: 0;
     
     }
     .tof3{
@@ -527,7 +528,7 @@ ul{
     }
     
     .blanc{
-        margin-top: 300px;
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap
@@ -635,6 +636,22 @@ ul{
         flex-direction: column;
         margin-bottom: 200px;
         margin-top: 200px;
+     }
+     .tof-sec4{
+        width: 300px;
+        margin-bottom: 50px;
+     }
+     .img-rec{
+        width: 0px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+     }
+     .rec{
+        width: 0;
+     }
+     .projet{
+        font-size: 15px;
      }
      .h1-sec4{
         font-size: 10px;
