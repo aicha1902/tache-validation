@@ -172,7 +172,7 @@ ul{
     padding: 20px;
 }
 .bas-blanc{
-    
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,20 +196,20 @@ ul{
     justify-content: center;
 }
 .para{
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 .couteau{
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 .fashion{
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 .real{
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
 }
 .tout{
     display: flex;
@@ -228,7 +228,7 @@ ul{
     background-image: url(photos/free.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 5%;
+    border-radius: 25px;
 }
 .free .h1-free{
        padding-top: 90px;
@@ -341,22 +341,22 @@ ul{
 .all-tofs{
     display: flex;
 }
-.pic1{
+.pic1 img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.pic2{
+.pic2 img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.pic3{
+.pic3 img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.pic4{
+.pic4 img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -418,7 +418,7 @@ ul{
     background-image: url(photos/schule.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 25px;
     display: flex;
     justify-content: space-around;
 }
@@ -475,7 +475,7 @@ ul{
     }*/
     
     header{
-        width: 300px;
+        width: 70%;
     }
     .nav-bar{
         width: 300px;
@@ -501,7 +501,7 @@ ul{
         font-size: 8px;
     }*/
     .all-sect-1{
-        width: 100%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         margin-top: 300px;
@@ -551,24 +551,34 @@ ul{
         width: 250px;
         margin: 0;
     }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .perf-reten{
+        display: flex;
+        flex-direction: column;
+    }
     .performance{
-        width: 200px;
+        width: 30%;
     }
     .retention{
-        width: 200px;
+        width: 30%;
     }
     .mark-oth{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .market{
-        width: 200px;
+        width: 30%;
     }
     .other{
-        width: 200px;
+        width: 30%;
     }
     .bas-blanc{
-        width: 300px;
+        width: 70%;
+        margin-top: 0;
     }
     .img-1{
         width: 100%;
@@ -583,31 +593,31 @@ ul{
         width: 100%;
     }
     .vert{
-        width: 300px;
+        width: 70%;
     }
     .img-noir{
         width: 300px;
     }
     .para{
-        width: 20px;
+        width: 15px;
     }
     .para-beau{
         font-size: 10px;
     }
     .couteau{
-        width: 20px;
+        width: 15px;
     }
     .para-cou{
         font-size: 10px;
     }
     .fashion{
-        width: 20px;
+        width: 15px;
     }
     .para-fashion{
         font-size: 10px;
     }
     .real{
-        width: 20px;
+        width: 15px;
     }
     .para-real{
         font-size: 10px;
