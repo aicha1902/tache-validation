@@ -77,7 +77,10 @@ ul{
          
 }
 .gauche h1{
- font-size: 50px;
+ font-size: 70px;
+}
+.p-making{
+    font-size: 20px;
 }
 .tofs{
      display: flex;
@@ -124,9 +127,12 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .quote{
+    width: 100px;
+    height: 50px;
+    border: none;
     color: white;
     background-color: green;
 }
@@ -401,16 +407,20 @@ ul{
 .analyse{
     display: flex;
     justify-content: center;
-    margin: 50px;
-    gap: 65px;
+    align-items: center;
+    gap: 80px;
 }
-.ana{
-    width: 30%;
-    height: 70%;
+.ana1 img{
+    width: 300px;
+    height: 300px;
 }
-.ana3{
-    width: 20%;
-    height: 50%;
+.ana2 img{
+    width: 300px;
+    height: 300px;
+}
+.ana3 img{
+    width:300px;
+    height: 300px;
 }
 .sec-7{
     height: 300px;
@@ -475,10 +485,10 @@ ul{
     }*/
     
     header{
-        width: 70%;
+        width: 100%;
     }
     .nav-bar{
-        width: 300px;
+        width:  100%;
         display: flex;
         flex-direction: column;
         /* margin-bottom: 100px; */
@@ -501,10 +511,12 @@ ul{
         font-size: 8px;
     }*/
     .all-sect-1{
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
     }
     .gauche h1{
         font-size: 25px;
@@ -527,57 +539,64 @@ ul{
        margin-top: 0;
     }
     .tof1{ 
-        width: 50%;
+        width: 100%;
     }
     .tof2{
-        width: 50%;
+        width: 100%;
     }
     .tof3{
-        width: 50%;
+        width: 100%;
     }
     
     .blanc{
         margin-top: 0;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap
     }
     
     .elevate{
         width: 300px;
-        margin: 50px;
+        
     }
     .img-el img{
-        width: 250px;
+        width: 100%;
         margin: 0;
     }
     .icons{
+    margin-top: 100px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .perf-reten{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .performance{
-        width: 30%;
+        width: 50%;
     }
     .retention{
-        width: 30%;
+        width: 50%;
     }
     .mark-oth{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        width: 100%;
     }
     .market{
-        width: 30%;
+        width: 50%;
     }
     .other{
-        width: 30%;
+        width: 50%;
     }
     .bas-blanc{
-        width: 70%;
+        width: 100%;
         margin-top: 0;
     }
     .img-1{
@@ -593,7 +612,7 @@ ul{
         width: 100%;
     }
     .vert{
-        width: 70%;
+        width: 100%;
     }
     .img-noir{
         width: 300px;
@@ -628,7 +647,7 @@ ul{
 
 
     .tout{ 
-        width: 300px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* margin-top: 100px; */
@@ -636,7 +655,7 @@ ul{
     .free{
         margin-right: 0;
         margin-left: 0;
-        width: 250px;
+        width: 100%;
     }
     .jaune{
         width: 300px;
@@ -656,12 +675,17 @@ ul{
         flex-direction: column;
         justify-content: center;
         justify-items: center;
-        margin-bottom: 200px;
-        margin-top: 250px;
+        margin-top: 300px;
      }
-     .tof-sec4{
-        width: 300px;
+     .h1-sec4{
+        font-size: 25px;
+     }
+     .tof-sec4 img{
+        width: 100%;
         margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
      .img-rec img{
         width: 100px;
@@ -674,18 +698,17 @@ ul{
         font-size: 10px;
         text-align: center;
      }
-     .h1-sec4{
-        font-size: 25px;
-     }
-     .charle{
-        width: 50%;
-     }
+    
+     
     .green{ 
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-top: 300px;
     }
+    .charle{
+        width: 100%;
+     }
     .build{
         margin-top: 0px;
         display: flex;
@@ -696,21 +719,45 @@ ul{
         font-size: 15px;
     }
     .all-tofs{
-        margin-top: -15px;
+        margin-top: -20px;
+    }
+    .pic1 img{
+        width: 45px;
+        height: 35px;
+    }
+    .pic2 img{
+        width: 45px;
+        height: 35px;
+    }
+    .pic3 img{
+        width: 45px;
+        height: 35px;
+    }
+    .pic4 img{
+        width: 45px;
+        height: 35px;
     }
     .black{
-        width: 80%;
+        width: 100%;
     }
     .h1-black{
-        margin-top: 21px;
+        margin-top: 20px;
         font-size: 13px;
     }
      .sec-6{
-        width: 80%;
+        width: 100%;
+        height: 800px;
+        margin-top: -20px;
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        text-align: center;
+        margin-top: 50px;
+        background-color: #f4f4f4;
+        
+        
+        
     }
+    
     .h1-sec6{
         font-size: 15px;
     }
@@ -719,13 +766,13 @@ ul{
         flex-direction: column;
     }
     .goog{
-        width: 150px;
+        width: 100%;
     }
     .goog img{
         width: 100%;
     }
     .shop{
-        width: 150px;
+        width: 100%;
     }
     .shop img{
         width: 100%;
@@ -742,23 +789,48 @@ ul{
     .meta img{
         width: 100%;
     }
-    .analyse{
+    /* .analyse{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: -40px;
         margin-left: 0px;
+    }*/
+    
+
+    .analyse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .ana1 img{
+        width: 90px;
+        height: 100px;
+    }
+    .ana2 img{
+        width: 90px;
+        height: 100px;
+    }
+    .ana3 img{
+        width: 90px;
+        height: 100px;
     }
     .sec-7{
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
         margin-left: 0px;
+        justify-content: center;
+        align-items: center;
     }
     .btn-sec7{
-        margin-top: -20%;
-        margin-left: 20%;
+        margin-top: 20%;
+    
     }
     .all-footer{
-        width: 80%;
+        width: 100%;
         gap: 2px;
     }
     .ill{
@@ -796,10 +868,10 @@ ul{
         margin-top: 10px;
     }
     .horizon{
-        width: 80%;
+        width: 100%;
     }
     .last{
-        width: 80%;
+        width: 100%;
         gap: 2px;
     }
     .last-p{
