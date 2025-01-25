@@ -516,7 +516,7 @@ ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 300px;
     }
     .gauche h1{
         font-size: 25px;
@@ -702,6 +702,7 @@ ul{
      
     .green{ 
         width: 100%;
+        height: 600px;
         display: flex;
         flex-direction: column;
         margin-top: 300px;
@@ -826,7 +827,7 @@ ul{
         align-items: center;
     }
     .btn-sec7{
-        margin-top: 20%;
+        margin-top: 20px;
     
     }
     .all-footer{
