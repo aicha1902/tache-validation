@@ -835,6 +835,12 @@ ul{
         justify-content: center;
         align-items: center;
     }
+    .text{
+        text-align: center;
+    }
+    .h1-sec7{
+        font-size: 30px;
+    }
     .btn-sec7{
         margin-top: 20px;
     
